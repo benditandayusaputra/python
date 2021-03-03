@@ -1,0 +1,32 @@
+.container {
+  width: 1024px;
+  height: 900px;
+  margin: auto;
+  background-color: #333;
+  position: relative;
+}
+
+canvas {
+  margin: auto;
+  border: 1px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header div {
+  text-align: center;
+  flex: 0 0 30%;
+}
+
+.header div:nth-child(2) {
+  flex: 0 0 40%;
+}

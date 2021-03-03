@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>PYTHON</title>
+    </head>
+    <body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h4 style="color:white">Current Score: </h4>
+                <h4 class="scoreboard" style="color:white">0</h4>   
+            </div>   
+            <div>
+                <h1 style="color:white">PYTHON</h1>   
+            </div>   
+            <div>
+                <h4 style="color:white">Time: </h4>
+                <h4 class="hi" style="color:white">0</h4>
+            </div>
+        </div>
+        <div>
+            <canvas width="900" height="600" id="game"></canvas>
+        </div>
+    </div>
+    <!-- <div class="div-only-mobile">
+        <div>
+            <button class="bttns" onmousedown="up()">↑</button>
+            <button class="bttns" onmousedown="down()">↓</button>
+            <button class="bttns" onmousedown="left()">←</button>
+            <button class="bttns" onmousedown="right()">→</button>
+            <button class="pause" onmousedown="pause()" class="pause">Pause</button>
+        </div>
+    </div> -->
+
+    <div id='timer' />
+<script type="text/javascript">window.onload = CreateTimer("timer", 5);
+sessionStorage.getItem('label')
+sessionStorage.setItem('value', 'label')</script>
+        <script src="snake.js"></script>
+    </body>
+</html>
