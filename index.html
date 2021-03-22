@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>Python</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYTHON</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="app">
+
+    <div id="app">
         <div class="container-instruction">
             <div class="instruction">
-                <h1>PYTHON</h1>
-                <h3>Instruksi</h3>
+                <h1>PYTHONS</h1>
                 <ol>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in!</li>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in!</li>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in!</li>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in!</li>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in!</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, tempore!</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, tempore!</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, tempore!</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, tempore!</li>
                 </ol>
                 <br>
-                <label for="name">Silahkan Masukan Nama Anda</label>
-                <br>
-                <input type="text" id="name" value="">
-                <br>
-                <small id="error"></small>
+                <label for="name">Silahkan Masukan Nama Anda :</label>
                 <br><br>
-                <button type="button" id="start">MULAI</button>
+                <input type="text" id="name">
+                <br><br>
+                <button type="button" id="start" disabled>Mulai</button>
             </div>
         </div>
         <div class="container">
             <div class="header">
                 <div>
-                    <h4 style="color:white">Score: </h4>
-                    <h4 class="scoreboard" style="color:white">0</h4>   
-                </div>   
-                <div style="color:white">
-                    <h1 style="color:white">PYTHON</h1>   
-                    User : <strong id="nameUser"></strong>
-                </div>   
+                    <h4 style="color: #5d96d4;">Score</h4>
+                    <h4 class="scoreboard">0</h4>
+                </div>
                 <div>
-                    <h4 style="color:white">Time: </h4>
-                    <h5 class="time" style="color:white"></h5>
+                    <h1 style="color: #5d96d4;">PYTHON</h1>
+                    User : <strong id="nameUser"></strong>
+                </div>
+                <div>
+                    <h4 style="color: #5d96d4;">Time</h4>
+                    <h5 class="time"></h5>
                 </div>
             </div>
             <div>
-                <canvas width="900" height="600" id="game"></canvas>
+                <canvas id="game" width="900" height="600"></canvas>
             </div>
             <div class="footer">
                 <button type="button" id="restart">Restart</button>
             </div>
         </div>
     </div>
-
+    
     <script src="main.js"></script>
 </body>
 </html>
